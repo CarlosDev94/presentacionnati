@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+img{
+    height: 99vh;
+    width: 100vw;
+}
+.mobile{
+    display: none;
+}
+
+@media (max-width:880px){
+    .image-pc{
+        display: none;
+    }
+    .mobile{
+        min-height: 100vh;        
+        display: flex;
+        flex-direction: column;  
+        gap: 20px;      
+        align-items: center;
+        background-image: url("https://img.freepik.com/vector-gratis/fondo-mariposa-femenina-borde-rosa-ilustracion-animales-vectoriales_53876-140212.jpg?w=2000");
+              
+    }
+    .mobile img{
+        border-radius: 50%;
+        width: 280px;
+        height: 320px;
+    }
+    .purple-circle{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(165, 55, 253, 0.3);
+        border-radius: 50%;
+    }
+    .purple-circle p, 
+    .yellow-circle p,
+    .pink-circle p,
+    .green-circle p,
+    .gray-circle p{
+        text-align: center;
+        padding: 40px;
+        font-size: 21px;
+    }
+    .yellow-circle{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(255,255,159, 0.7);
+        border-radius: 50%;
+    }
+    .pink-circle{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(239,207,227, 0.8);
+        border-radius: 50%;        
+    }
+    .pink-circle p{
+        font-size: 17px;
+        padding-top: 51px;
+    }
+    .green-circle{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(200,247,197, 0.7);
+        border-radius: 50%;
+    }
+    .green-circle p{
+        padding-top: 65px;
+    }
+    .gray-circle{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(210, 215, 211, 0.7);
+        border-radius: 50%;
+    }
+    .purple-circle p{
+      font-size: 20px;
+    }
+    h2, p{
+        text-align: right;
+        color: rgb(83, 83, 83);
+    }
+    
+}
+
